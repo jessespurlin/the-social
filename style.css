@@ -1,0 +1,61 @@
+/* Bootstrap default overrides */
+/* $bg-primary: #323B41; */
+
+
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.bottom h5 {
+    color: #557d9b;
+    /* margin-top: 2rem; */
+}
+.bottom h5, li {
+font-size: .75rem;
+line-height: .3rem;
+} 
+
+.hero-image {
+    background-color: #cccccc;
+    height: 750px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;    
+}
+.home .hero-image {
+    background-image: url("img/Backgrounds/background1.jpg");    
+}
+.about .hero-image {
+    background-image: url("img/Backgrounds/background2.jpg");    
+}
+.contact .hero-image {
+    background-image: url("img/Backgrounds/background3.jpg");    
+}
+
+.hero-text h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-transform: uppercase;
+    font-size: 4rem;
+}
+
+.logo {
+    max-height: 1.5rem;
+}
+
+.navbar-nav > .active > a,
+.navbar-nav > .active > a:hover,
+.navbar-nav > .active > a:focus {
+    color: #555;
+    background-color: #DFDFDF;
+}
+
+.form-group {
+    color: #7F7775;
+}
